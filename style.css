@@ -1,0 +1,66 @@
+#clockContainer{
+    position: relative;
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    top:150px;
+    background:url(myClk.png) no-repeat;
+    background-size: 100%;
+    
+    
+}
+#hour{
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    width: 2.3%;
+    height: 25%;
+    top: 25.2%;
+    left: 49.5%;
+    transform-origin: bottom;
+    
+}
+
+#min{
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    width: 1.8%;
+    height: 30%;
+    top: 20.2%;
+    left: 49.5%;
+    transform-origin: bottom;
+}
+
+#sec{position: absolute;
+    background: black;
+    border-radius: 10px; 
+    width: 1.2%;
+    height: 38%;
+    top: 12%;
+    left: 49.5%;
+    transform-origin: bottom;
+}
+
+label{
+    position: absolute;
+    top:50px;
+    left:280px;
+    ;
+}
+input{
+position: absolute;
+top: 82px;
+left: 625px}
+
+#aClock{
+    position: absolute;
+    background: red;
+    border-radius: 10px; 
+    width: 2.3%;
+    height: 25%;
+    top: 25.2%;
+    left: 49.5%;
+    transform-origin: bottom;
+    opacity: 0.8;
+}
